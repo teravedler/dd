@@ -1,0 +1,42 @@
+.slider{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider img{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.slider img.active{
+    display: block;
+}
+
+.slider .nav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider .nav:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.2 ease;
+}
+
+.slider .prev{
+    left: 5px;
+}
+
+.slider .next{
+    right: 5px;
+}
