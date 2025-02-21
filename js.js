@@ -16,3 +16,8 @@ function nextslide(){
     showslide(currentIndex);
 }
 showslide(currentIndex)
+
+
+function changeText() {
+    document.getElementById('message').innerText = 'Текст изменен!';
+}
